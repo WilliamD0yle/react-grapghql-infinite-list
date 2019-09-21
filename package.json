@@ -2,7 +2,7 @@
   "name": "graphql-infinite-scroll",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/WilliamD0yle/react-grapghql-infinite-list",
+  "homepage": "https://williamd0yle.github.io/react-grapghql-infinite-list/",
   "dependencies": {
     "apollo-boost": "^0.4.4",
     "gh-pages": "^2.1.1",
