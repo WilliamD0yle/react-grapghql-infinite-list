@@ -6,7 +6,7 @@ import Repos from "../Repos/";
 import logo from "./logo.svg";
 import "./App.css";
 
-const reposQuery = gql`
+export const reposQuery = gql`
   query search($query: String!, $cursor: String) {
     search(first: 10, query: $query, type: REPOSITORY, after: $cursor) {
       pageInfo {
