@@ -1,0 +1,41 @@
+.Repo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(164, 195, 209);
+}
+
+.Repo img {
+    height: 250px;
+    width: 250px;
+    justify-self: center;
+    align-self: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: left;
+}
+
+.details {
+    align-items: flex-start;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+}
