@@ -21,8 +21,6 @@ const reposQuery = gql`
             name
             owner{
 				login
-				id
-				url
 				avatarUrl
 			   }
 			url
@@ -58,10 +56,7 @@ const App = () => (
 			}}
 		>
 			{({ data, loading, error, fetchMore }) => {
-				if (error) {
-					return <p>{error.message}</p>;
-				}
-
+				if (error) return <p>{error.message}</p>;
 				return (
 					<Repos
 						loading={loading}
