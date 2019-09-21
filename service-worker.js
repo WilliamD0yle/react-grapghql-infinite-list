@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/WilliamD0yle/react-grapghql-infinite-list/precache-manifest.e5fdf7233a93054bd8c7bdb358a1934a.js"
+  "/WilliamD0yle/react-grapghql-infinite-list/precache-manifest.6789df4c75c1a7495b83487670d86c45.js"
 );
 
 self.addEventListener('message', (event) => {
